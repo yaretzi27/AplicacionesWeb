@@ -1,0 +1,61 @@
+@import url('');
+body{
+
+    background-color: #4e40ec;
+    margin: 0px;
+}
+h1{
+    color: #54e0ff;
+    font-size: 9rem;
+    background-color: #034d00;
+    font-family: "Betania Patamos" cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2, h3, h4, h5, h6{
+    font-style: oblique;
+    font-size: 5rem;
+    text-align: center;
+    color: #661a66;
+}
+
+/*h3{
+    text-decoration: underline;
+    font-size: 3rem;
+    color: #661a66;
+}
+   
+h4{
+    text-align: justify;
+    font-size: 5rem;
+    color: beige;
+
+}
+h5{
+    font-style: italic;
+    font-size: 3rem;
+    text-align: end;
+    color: darkseagreen;
+}
+h6{
+    font-style: normal;
+    font-size: medium;
+    color: darkcyan;
+}
+       */
+       .flex{
+        jus
+       }
+.fondoverde{
+    background-color: #2f7c2c;
+    margin-top: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 4rem;
+}
+.fondonaranja{
+    background-color: rgb(143, 81, 36);
+}
+  
