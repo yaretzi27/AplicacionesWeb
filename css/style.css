@@ -1,7 +1,7 @@
 body {
     /*fondo de la primera*/
     margin: 0;
-    background-color: #6f1777;
+    background-color: #724a75;
     font-family: Arial, sans-serif;
 }
 /*texto*/
@@ -68,7 +68,4 @@ h1 {
     border-radius: 20px;
     border: 5px solid #000; /* Añadido para mantener simetría con el leftdiv */
     padding: 2rem;
-}
-.enlacenosotrsos{
-    color: #01060a;
 }
