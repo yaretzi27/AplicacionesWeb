@@ -1,22 +1,23 @@
 body {
+    /*letra de nosotros*/
     margin: 0;
-    color: #333;
-    /* Color de fondo general: un tono crema suave para que no lastime la vista */
-    background-color: #fdf5e6; 
+    color: #0a0a0a;
+    /* Color de fondo general: de nosotros */
+    background-color: #18b391; 
     font-family: Arial, sans-serif;
 }
 
 h1 {
     font-size: 4rem;
-    /* Color morado intenso, típico del Día de Muertos */
-    color: #6a1b9a; 
+    /* letra intenso, típico del Día de Muertos */
+    color: #080808; 
     margin-bottom: 3rem;
     text-align: center;
 }
 
 p {
-    /* Color de texto general un poco más oscuro para que se lea bien */
-    color: #4a148c; 
+    /* Color de texto de nosotros */
+    color: #121213; 
     margin-bottom: 0px;
     font-size: 2rem;
     line-height: 2rem;
@@ -24,8 +25,9 @@ p {
 
 a {
     font-size: 1.5rem;
-    /* Color naranja fuerte para los enlaces */
-    color: #e65100; 
+
+    /* Color  enlaces de contacto */
+    color: #070707;
     text-decoration: dotted;
     transition: all ease-in 1s;
     display: block; 
@@ -35,33 +37,70 @@ a {
 a:hover {
     text-decoration: none;
     cursor: pointer;
-    /* Color amarillo brillante al pasar el mouse */
-    color: #ffab00; 
+    /* Color amarillo brillante al pasar el mouse de nosotros */
+    color: #0e2bce; 
 }
 
 .flex {
     display: flex; 
     justify-content: space-between; 
-    padding: 2rem; 
+    padding: 5rem; 
     gap: 2rem; 
 }
-
+/*margen de nosotros*/
 .divflex1 {
     width: 40%;
-    /* Fondo rosa mexicano fuerte para el primer bloque */
-    background-color: #e91e63; 
+    background-color: #71cc3c; 
     padding: 2rem;
-    border-radius: 15px;
-    /* Borde morado para que combine */
-    border: 5px solid #6a1b9a; 
+    border-radius: 25px;
+    border: 5px solid #8e0cf8; 
 }
 
 .divflex2 {
     width: 40%;
     /* Fondo naranja cempasúchil para el segundo bloque */
-    background-color: #ff9800; 
+    background-color: #f15f24; 
     padding: 2rem;
     border-radius: 20px;
     /* Borde morado para que combine */
     border: 5px solid #6a1b9a; 
+}
+.divflex3{
+    width: 40%;
+    /* Fondo de contacto*/
+    background-color: #33cce0; 
+    padding: 2rem;
+    border-radius: 20px;
+    
+    border: 5px solid #010e16; 
+}
+.divflex4{
+    width: 40%;
+    /* Fondo  de contacto */
+    background-color: #33cce0; 
+    padding: 2rem;
+    border-radius: 20px;
+    /* Borde morado para que combine */
+    border: 5px solid #01060a; 
+}
+.ins {
+    width: 25%;
+    height: auto;
+    border-radius: 20px;
+    border: 3px solid #af1313;
+    padding: 10px;
+    display: block; 
+    margin: 0 auto;
+}
+.you {
+    width: 25%;
+    height: auto;
+    border-radius: 20px;
+    border: 3px solid #af1313;
+    padding: 10px;
+    display: block; 
+    margin: 0 auto;
+}
+.enlacenosotrsos{
+    color: #01060a;
 }

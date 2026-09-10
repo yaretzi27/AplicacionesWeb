@@ -1,18 +1,19 @@
 body {
+    /*fondo de la primera*/
     margin: 0;
-    background-color: #ccc;
+    background-color: #6f1777;
     font-family: Arial, sans-serif;
 }
-
+/*texto*/
 p {
     font-size: 1.1rem;
-    color: #111;
+    color: #0a0a0a;
     line-height: 2rem;
 }
-
+/*titulo*/
 h1 {
     font-size: 6rem;
-    color: #350202;
+    color: #070707;
     text-align: center;
 }
 
@@ -20,7 +21,7 @@ h1 {
     width: 87%;
     height: 100%;
     border-radius: 20px;
-    border: 5px solid #000;
+    border: 5px solid #a30404;
     padding: 2rem;
     display: block; /* Para centrar la imagen si es necesario */
     margin: 0 auto;
@@ -29,43 +30,45 @@ h1 {
     width: 50%;
     height: 45%;
     border-radius: 20px;
-    border: 5px solid #000;
+    border: 5px solid #c20e0e;
     padding: 2rem;
-    display: block; /* Para centrar la imagen si es necesario */
+    display: block; 
     margin: 0 auto;
 }
 .imgclas {
     width: 50%;
     height: 45%;
     border-radius: 20px;
-    border: 5px solid #000;
+    border: 5px solid #af1313;
     padding: 2rem;
-    display: block; /* Para centrar la imagen si es necesario */
+    display: block; 
     margin: 0 auto;
 }
-
-
+/*borde de las imagnes*/
 .flex {
     margin-top: 5rem;
-    display: flex; /* Aprendido en Flexbox Froggy */
-    justify-content: space-between; /* Aprendido en Nivel 4 */
-    border-radius: 20px;
-    border: 5px solid #000;
+    display: flex; 
+    justify-content: space-between; 
+    border-radius: 30px;
+    border: 7px solid #0c0c0c;
     padding: 2rem; /* Añadido para que el contenido no toque el borde */
 }
-
+/*fondo * imagen principal*/ 
 .leftdiv {
     width: 50%;
-    background-color: #9ddbf6;
+    background-color: #12d1d8;
     border-radius: 20px;
     border: 5px solid #000;
     padding: 2rem;
 }
-
+/*segunda omagen */
 .rightdiv {
     width: 50%;
     background-color: #4de75a;
     border-radius: 20px;
     border: 5px solid #000; /* Añadido para mantener simetría con el leftdiv */
     padding: 2rem;
+}
+.enlacenosotrsos{
+    color: #01060a;
 }
