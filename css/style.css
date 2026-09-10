@@ -1,44 +1,71 @@
-body{
+body {
     margin: 0;
     background-color: #ccc;
-
+    font-family: Arial, sans-serif;
 }
-p{
+
+p {
     font-size: 1.1rem;
     color: #111;
-    line-height:  2rem;
+    line-height: 2rem;
 }
-h1{
+
+h1 {
     font-size: 6rem;
-    color: #e409d9;
-
+    color: #350202;
+    text-align: center;
 }
-.imgclass{
-    width: 100%;
+
+.imgclass {
+    width: 87%;
     height: 100%;
-}
-.flex{
-    margin-top: 5rem;
-    display: flex;
-    justify-content: space-between;
     border-radius: 20px;
-    border: 5px solid #000; 
-
+    border: 5px solid #000;
+    padding: 2rem;
+    display: block; /* Para centrar la imagen si es necesario */
+    margin: 0 auto;
 }
-.leftdiv{
-    width: 50;
+.imgg {
+    width: 50%;
+    height: 45%;
+    border-radius: 20px;
+    border: 5px solid #000;
+    padding: 2rem;
+    display: block; /* Para centrar la imagen si es necesario */
+    margin: 0 auto;
+}
+.imgclas {
+    width: 50%;
+    height: 45%;
+    border-radius: 20px;
+    border: 5px solid #000;
+    padding: 2rem;
+    display: block; /* Para centrar la imagen si es necesario */
+    margin: 0 auto;
+}
+
+
+.flex {
+    margin-top: 5rem;
+    display: flex; /* Aprendido en Flexbox Froggy */
+    justify-content: space-between; /* Aprendido en Nivel 4 */
+    border-radius: 20px;
+    border: 5px solid #000;
+    padding: 2rem; /* Añadido para que el contenido no toque el borde */
+}
+
+.leftdiv {
+    width: 50%;
     background-color: #9ddbf6;
-      border-radius: 20px;
-    border: 5px solid #000; 
+    border-radius: 20px;
+    border: 5px solid #000;
     padding: 2rem;
 }
-.rightdiv{
-    width: 50;
-    background-color: aliceblue;
-}
-.divflex1{
-    width: 45;
-}
-.divflex2{
-    width: 45;
+
+.rightdiv {
+    width: 50%;
+    background-color: #4de75a;
+    border-radius: 20px;
+    border: 5px solid #000; /* Añadido para mantener simetría con el leftdiv */
+    padding: 2rem;
 }

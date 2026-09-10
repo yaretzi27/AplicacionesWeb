@@ -1,26 +1,67 @@
-body{
-    margin: 0px;
+body {
+    margin: 0;
     color: #333;
+    /* Color de fondo general: un tono crema suave para que no lastime la vista */
+    background-color: #fdf5e6; 
+    font-family: Arial, sans-serif;
 }
-h1{
-    font-size: 7rem;
-    color: #fff;
+
+h1 {
+    font-size: 4rem;
+    /* Color morado intenso, típico del Día de Muertos */
+    color: #6a1b9a; 
     margin-bottom: 3rem;
+    text-align: center;
 }
-p{
-    color:#ccc;
+
+p {
+    /* Color de texto general un poco más oscuro para que se lea bien */
+    color: #4a148c; 
     margin-bottom: 0px;
     font-size: 2rem;
     line-height: 2rem;
 }
-a{
-    font-size: 5rem;
-    color: #6d6d6d;
+
+a {
+    font-size: 1.5rem;
+    /* Color naranja fuerte para los enlaces */
+    color: #e65100; 
     text-decoration: dotted;
-    transition:all ease-in 1s;
+    transition: all ease-in 1s;
+    display: block; 
+    text-align: center;
 }
-a:hover{
+
+a:hover {
     text-decoration: none;
     cursor: pointer;
-    color: #cdeb07;
+    /* Color amarillo brillante al pasar el mouse */
+    color: #ffab00; 
+}
+
+.flex {
+    display: flex; 
+    justify-content: space-between; 
+    padding: 2rem; 
+    gap: 2rem; 
+}
+
+.divflex1 {
+    width: 40%;
+    /* Fondo rosa mexicano fuerte para el primer bloque */
+    background-color: #e91e63; 
+    padding: 2rem;
+    border-radius: 15px;
+    /* Borde morado para que combine */
+    border: 5px solid #6a1b9a; 
+}
+
+.divflex2 {
+    width: 40%;
+    /* Fondo naranja cempasúchil para el segundo bloque */
+    background-color: #ff9800; 
+    padding: 2rem;
+    border-radius: 20px;
+    /* Borde morado para que combine */
+    border: 5px solid #6a1b9a; 
 }
